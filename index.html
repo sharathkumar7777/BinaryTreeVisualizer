@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Binary Tree Visualization</title>
+  </head>
+  <body>
+
+    <header>
+      
+      <div id="title">Tree Visualizer</div>
+      <label>Array:</label><br />
+      <input type="text" id="array-input" name="array" />
+      <div id="options">
+        <button onclick="treeAndArray()">Binary Tree Visualization</button>
+        <button onclick="heapify()">Max-Heap Visualization</button>
+        <button onclick="createBinarySearchTree()">Binary Search Tree Visualization</button>
+      </div>
+    </header>
+
+    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png" width="200" height="200">
+    <div id="blurb">
+      <div id="visual-title"></div>
+      <div id="instructions"></div>
+    </div>
+    <div id="binary-tree"></div>
+    <div id="array-visual"></div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="C:\Users\Sharath\OneDrive\Desktop\BT_visualizer\js\node.js"></script>
+    <script src="C:\Users\Sharath\OneDrive\Desktop\BT_visualizer\js\heap.js"></script>
+    <script src="C:\Users\Sharath\OneDrive\Desktop\BT_visualizer\js\app.js"></script>
+  </body>
+</html>
